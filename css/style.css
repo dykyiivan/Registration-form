@@ -1,0 +1,178 @@
+
+body {
+	background: #00a0bc;
+	font-family: 'Open Sans', Tahoma, Arial, sans-serif;
+}
+
+.wrapper-form {
+	max-width: 830px;
+	margin: 0 auto;
+}
+
+/* Clearfix */
+.register:after,
+.login:after {
+	clear: both;
+	content: "";
+	display: table;
+} 
+
+h1 {
+	color: #fff;
+	font-size: 41px;
+    margin-bottom: 15px;
+}
+/* Form */
+form {
+    margin-top: 65px;
+}
+
+.form-title p {
+	color: #fff;
+	font-size: 20px;
+}
+.fb_button {
+	display: block;
+	padding-left: 30px;
+	width: 290px;
+}
+
+.login {
+	max-width: 360px;
+}
+
+/* Input login and password */
+.user-name-login,
+.user-password-login {
+	background: #0199b3;
+	border-radius: 10px;
+	border: 1px solid #0191aa;
+	box-sizing: border-box;
+	margin-bottom: 32px;
+	outline: none;
+	padding: 20px 30px;
+	width: 100%;
+}
+
+
+::-webkit-input-placeholder  { 
+	color:#fff; 
+	font-size: 18px;
+}
+:-moz-placeholder {
+	color:#fff; 
+	font-size: 18px;
+}
+:-ms-input-placeholder {
+	color:#fff; 
+	font-size: 18px;
+}
+
+/* Border */
+.border {
+    background: transparent url(../images/border-img.png) no-repeat center;
+    height: 3px;
+    margin: 50px 0;
+    max-width: 345px;
+    position: relative;
+    width: 100%;
+}
+
+.border-img-circle {
+	position: absolute;
+    bottom: -15px;
+    right: 45%;
+}
+
+/* Checkbox */
+.checkbox-label {
+	color: #006476;
+	font-size: 14px;
+	padding-left: 5px;
+}
+
+.checkbox:not(checked) {
+	opacity: 0;
+	position: absolute;
+}
+
+.checkbox:not(checked) + label {
+	padding: 0 0 0 25px; /* оставляем слева от label место под псевдочекбокс */
+	position: relative; /* будем позиционировать псевдочекбокс относительно label */
+}
+
+.checkbox:not(checked) + label:before {
+    background: #CDD1DA;
+    border-radius: 7px;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+    content: "";
+    height: 19px;
+    left: 0;
+    position: absolute;
+    top: -1px;
+    width: 19px;
+}
+
+.checkbox:checked + label:before {
+  background: transparent url(../images/checkbox-btn.png) no-repeat;
+}
+
+/* Button Login*/
+.login-btn {
+	background: #0289a1;
+	border-radius: 10px;
+	border: none;
+	color: #fff;
+	float: right;
+	font-size: 21px;
+	outline: none;
+	padding: 13px 50px;
+}
+
+/* Register block */
+
+.register {
+	margin-top: 70px;
+	max-width: 355px;
+	width: 100%;
+}
+
+h2 {
+	color: #fff;
+	font-size: 20px;
+	
+}
+
+.email-register-label,
+.user-name-register-label,
+.user-password-register-label {
+	color: #fff;
+	display: block;
+}
+
+.email-register,
+.user-name-register,
+.user-password-register {
+	background: #0289a1;
+	border-radius: 10px;
+	border: none;
+	color: #fff;
+	float: right;
+	font-size: 21px;
+	height: 50px;
+	outline: none;
+	padding: 0 30px;
+	width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0 25px 0;
+}
+
+.register-btn {
+	background: #ffc334;
+	border-radius: 10px;
+	border: none;
+	color: #fff;
+	float: right;
+	font-size: 22px;
+	padding: 10px 40px;
+}
